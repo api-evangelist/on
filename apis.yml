@@ -1,7 +1,22 @@
 aid: 'on'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/on.png
 name: 'On'
-description: 'On is a company surfaced as a portfolio company of bond-capital and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'On (On Holding AG) is a Swiss performance sportswear company founded in 2010, known for
+  its CloudTec running shoes and athletic apparel. It designs and sells premium running footwear, clothing,
+  and accessories worldwide through on.com and retail partners, and is publicly traded on the NYSE (ONON).
+  On was surfaced as a portfolio company of Bond Capital. On does not publish a public developer API; this
+  profile captures the company identity and its domain-security posture within the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/on/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +26,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Footwear
+- Running
+- Apparel
+- Athletic
+- Sportswear
+- Retail
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +44,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://on-running.com
+  url: https://www.on.com
+- type: About
+  url: https://www.on.com/en-us/explore/about-on
+- type: Support
+  url: https://www.on.com/en-us/support
+- type: Blog
+  url: https://press.on-running.com/
+- type: TermsOfService
+  url: https://www.on.com/en-us/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.on.com/en-us/privacy-policy
+- type: DomainSecurity
+  url: security/on-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
